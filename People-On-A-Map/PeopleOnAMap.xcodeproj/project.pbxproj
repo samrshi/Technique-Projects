@@ -26,7 +26,7 @@
 		BD8DEB5E2631DB9500EF921C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8DEB612631DB9600EF921C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD8DEB632631DB9600EF921C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD8DEB642631DB9600EF921C /* RedditHelp2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedditHelp2.entitlements; sourceTree = "<group>"; };
+		BD8DEB642631DB9600EF921C /* PeopleOnAMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeopleOnAMap.entitlements; sourceTree = "<group>"; };
 		BD8DEB6B2631DBF600EF921C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		BD8DEB6E2631DC1700EF921C /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		BD8DEB712631DC4C00EF921C /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		BD8DEB4E2631DB9400EF921C = {
 			isa = PBXGroup;
 			children = (
-				BD8DEB592631DB9400EF921C /* RedditHelp2 */,
+				BD8DEB592631DB9400EF921C /* PeopleOnAMap */,
 				BD8DEB582631DB9400EF921C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD8DEB592631DB9400EF921C /* RedditHelp2 */ = {
+		BD8DEB592631DB9400EF921C /* PeopleOnAMap */ = {
 			isa = PBXGroup;
 			children = (
 				BD8DEB5A2631DB9400EF921C /* PeopleOnAMapApp.swift */,
@@ -72,7 +72,7 @@
 				BD8DEB8F2632003C00EF921C /* Helpers */,
 				BD8DEB912632006A00EF921C /* Support */,
 			);
-			path = RedditHelp2;
+			path = PeopleOnAMap;
 			sourceTree = "<group>";
 		};
 		BD8DEB602631DB9600EF921C /* Preview Content */ = {
@@ -123,7 +123,7 @@
 			children = (
 				BD8DEB632631DB9600EF921C /* Info.plist */,
 				BD8DEB5E2631DB9500EF921C /* Assets.xcassets */,
-				BD8DEB642631DB9600EF921C /* RedditHelp2.entitlements */,
+				BD8DEB642631DB9600EF921C /* PeopleOnAMap.entitlements */,
 				BD8DEB602631DB9600EF921C /* Preview Content */,
 			);
 			path = Support;
@@ -332,14 +332,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = RedditHelp2/Support/RedditHelp2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PeopleOnAMap/Support/PeopleOnAMap.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"RedditHelp2/Support/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PeopleOnAMap/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = Q9PPH2T3L2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RedditHelp2/Support/Info.plist;
+				INFOPLIST_FILE = PeopleOnAMap/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -356,14 +356,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = RedditHelp2/Support/RedditHelp2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PeopleOnAMap/Support/PeopleOnAMap.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"RedditHelp2/Support/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PeopleOnAMap/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = Q9PPH2T3L2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RedditHelp2/Support/Info.plist;
+				INFOPLIST_FILE = PeopleOnAMap/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
